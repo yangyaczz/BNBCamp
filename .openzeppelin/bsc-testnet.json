@@ -1,0 +1,62 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x79CCc9295601C624fC5c46BfFE655ABb20F1106A",
+    "txHash": "0x6a0b9fa5e686f45ff2b79660fe32c236f8bbaaffc2e7b0b00dfd9fb8515d9f5e"
+  },
+  "proxies": [
+    {
+      "address": "0xf4d57Be705B1843E8D70E4a12b901f4eaEB0c4ee",
+      "txHash": "0x14aab12fed7430c4275703de5344edde1cdd3edf34902e6beab6397956d5ddfa",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "09c4df168da4bac48da4354e43d0c6e0379c3cfc4121133fe0cf28f808a89f83": {
+      "address": "0xAaB39CEfB952b91C224eC87AE7c88B2f59Be5F22",
+      "txHash": "0x4889de08604cd2bcbc538d35b901253321332cc8d5e01aaa1b012d47b6799bdd",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "num",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "UpgradeTest",
+            "src": "contracts\\week4\\UpgradeTest.sol:4"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "aa4b67c6b52eece0480b09ad183d6985be60c2677e1b0268a2e50a3c3131b474": {
+      "address": "0xaFb761646be83c9514CFCFea39Cc444467B64674",
+      "txHash": "0xbc0a2e7412c09ad686a992931849f3dfb60491447c9e5cc9ad262fa1bc6fd88d",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "num",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "UpgradeTestV2",
+            "src": "contracts\\week4\\UpgradeTestV2.sol:4"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
